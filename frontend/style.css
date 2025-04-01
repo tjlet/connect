@@ -1,1 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
 
+#board {
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
